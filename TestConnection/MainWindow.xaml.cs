@@ -21,7 +21,7 @@ namespace TestConnection
 
     public partial class MainWindow : Window
     {
-        private string connectionString = "server=localhost;uid=root;pwd=123456;database=laundrytemp";
+        private string connectionString = "server=localhost;port=3306;uid=root;pwd=Admin@123;database=invtemp";
         public MainWindow()
         {
             InitializeComponent();
